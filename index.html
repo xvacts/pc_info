@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Laptop Database</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    #search { width: 300px; margin-bottom: 10px; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    th { background-color: #f2f2f2; }
+    .comments { margin-top: 5px; }
+    .comment-form { margin-top: 10px; }
+    .comment-form input, .comment-form textarea { width: 100%; margin-bottom: 5px; }
+  </style>
+</head>
+<body>
+  <h1>Laptop Database</h1>
+  <input type="text" id="search" placeholder="Search by brand, model, year...">
+  <table id="laptopTable">
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Brand</th>
+        <th>Series</th>
+        <th>Model</th>
+        <th>Specs</th>
+        <th>Release Date</th>
+        <th>Comments</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+  <script src="script.js"></script>
+</body>
+</html>
