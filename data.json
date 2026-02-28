@@ -1,0 +1,978 @@
+[
+  {
+    "Year": 2022,
+    "Brand": "ASUS",
+    "Series": "Zenbook",
+    "Model": "Zenbook 14X OLED (UX5401)",
+    "Specs": "Intel: Core i5-12500H ~ i9-12900H, Iris Xe / RTX 3050; AMD: Ryzen 5/7 6000H, Radeon; RAM: 16-32GB LPDDR5; 存储: 512GB-1TB SSD; 显示屏: 14\" 2.8K OLED 90Hz",
+    "ReleaseDate": "2022 年初 (CES)"
+  },
+  {
+    "Year": 2022,
+    "Brand": "ASUS",
+    "Series": "Vivobook",
+    "Model": "Vivobook S 14X / 16X OLED (S5402 / S5602)",
+    "Specs": "Intel: i5-12500H ~ i7-12700H, Iris Xe / Arc A350M; AMD: Ryzen 5/7 6000U/H, Radeon; RAM: 8-32GB DDR4; 存储: 512GB-1TB SSD; 显示屏: 14.5\"/16\" 2.8K/3.2K OLED 120Hz",
+    "ReleaseDate": "2022 年 5 月"
+  },
+  {
+    "Year": 2022,
+    "Brand": "ASUS",
+    "Series": "ROG",
+    "Model": "ROG Strix SCAR 15 (G533)",
+    "Specs": "Intel: i7-12700H ~ i9-12900H; GPU: RTX 3060 ~ 3080 Ti; RAM: 16-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 15.6\" FHD 300Hz / QHD 240Hz",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "ASUS",
+    "Series": "TUF Gaming",
+    "Model": "TUF Gaming F17 (FX707)",
+    "Specs": "Intel: i5-12500H ~ i7-12700H; GPU: RTX 3050 ~ 3070; RAM: 8-32GB DDR5; 存储: 512GB-2TB SSD; 显示屏: 17.3\" FHD 144Hz",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "ASUS",
+    "Series": "ProArt",
+    "Model": "ProArt Studiobook 16 OLED (H7600)",
+    "Specs": "Intel: i7-11800H ~ i9-11900H; GPU: RTX A3000 ~ A5000; RAM: 16-64GB DDR4; 存储: Up to 4TB SSD; 显示屏: 16\" 4K OLED 触控",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Dell",
+    "Series": "XPS",
+    "Model": "XPS 13 (9315) / XPS 13 Plus (9320)",
+    "Specs": "Intel: Core i5-1230U ~ i7-1280P, Iris Xe; RAM: 8-32GB LPDDR5; 存储: 256GB-2TB SSD; 显示屏: 13.4\" FHD+ / UHD+ OLED",
+    "ReleaseDate": "2022 年 6 月 / 春季"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Dell",
+    "Series": "XPS",
+    "Model": "XPS 15 (9520)",
+    "Specs": "Intel: i5-12500H ~ i9-12900HK; GPU: Iris Xe / RTX 3050 Ti; RAM: 8-64GB DDR5; 存储: 256GB-4TB SSD; 显示屏: 15.6\" FHD+ / 3.5K OLED",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Dell",
+    "Series": "Inspiron",
+    "Model": "Inspiron 14 / 15 (5420 / 3520)",
+    "Specs": "Intel: i3-1215U ~ i7-1255U; AMD: Ryzen 5/7 5000/7000U; GPU: Iris Xe / Radeon; RAM: 8-16GB DDR4; 存储: 256GB-1TB SSD; 显示屏: 14\"/15.6\" FHD",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Dell",
+    "Series": "G Series",
+    "Model": "G15 5520",
+    "Specs": "Intel: i5-12500H ~ i7-12700H; GPU: RTX 3050 ~ 3070 Ti; RAM: 8-32GB DDR5; 存储: 256GB-2TB SSD; 显示屏: 15.6\" FHD 120Hz / QHD 240Hz",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Dell",
+    "Series": "Latitude",
+    "Model": "Latitude 5430 / 5530",
+    "Specs": "Intel: i5-1235U ~ i7-1255U; RAM: 8-64GB DDR4; 存储: Up to 2TB SSD; 显示屏: 14\"/15\" FHD",
+    "ReleaseDate": "2022 年 3 月"
+  },
+  {
+    "Year": 2022,
+    "Brand": "HP",
+    "Series": "Spectre",
+    "Model": "Spectre x360 14",
+    "Specs": "Intel: i5-1235U ~ i7-1255U, Iris Xe; RAM: 8-16GB LPDDR4x; 存储: 256GB-1TB SSD; 显示屏: 13.5\" 3K OLED 触控",
+    "ReleaseDate": "2022 年初 (CES)"
+  },
+  {
+    "Year": 2022,
+    "Brand": "HP",
+    "Series": "Envy",
+    "Model": "Envy x360 13 / 15",
+    "Specs": "Intel: i5-1235U ~ i7-1255U; AMD: Ryzen 5 5625U ~ Ryzen 7 5825U; GPU: Iris Xe / Radeon; RAM: 8-16GB; 显示屏: 13.3\"/15.6\" FHD/OLED 触控",
+    "ReleaseDate": "2022 全年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "HP",
+    "Series": "Pavilion",
+    "Model": "Pavilion Plus 14 / 15",
+    "Specs": "Intel: i5-1240P ~ i7-1260P; AMD: Ryzen 5 5625U ~ Ryzen 7 5825U; RAM: 8-16GB; 显示屏: 14\"/15.6\" 2.2K/2.8K OLED",
+    "ReleaseDate": "2022 年中"
+  },
+  {
+    "Year": 2022,
+    "Brand": "HP",
+    "Series": "Omen",
+    "Model": "Omen 16",
+    "Specs": "Intel: i7-12700H ~ i9-12900H; AMD: Ryzen 7 6800H; GPU: RTX 3060 ~ 3080 Ti; RAM: 16-32GB DDR5; 显示屏: 16.1\" QHD 165Hz",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "HP",
+    "Series": "Victus",
+    "Model": "Victus 16",
+    "Specs": "Intel: i5-12450H ~ i7-12700H; AMD: Ryzen 5 5600H ~ Ryzen 7 5800H; GPU: RTX 3050 ~ 3060; 显示屏: 16.1\" FHD 144Hz",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "HP",
+    "Series": "EliteBook",
+    "Model": "EliteBook 840 G9",
+    "Specs": "Intel: i5-1235U ~ i7-1255U (vPro); RAM: 16-64GB; 显示屏: 14\" FHD/WUXGA",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Modern",
+    "Model": "Modern 15 / 14 (B12M / C12M)",
+    "Specs": "Intel: i3-1215U ~ i7-1255U; AMD: Ryzen 3 5300U ~ Ryzen 7 5700U; GPU: UHD/Iris Xe / Radeon; RAM: 8-32GB DDR4; 存储: 256GB-1TB SSD; 显示屏: 15.6\"/14\" FHD IPS",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Prestige",
+    "Model": "Prestige 14 / 15 (A12M)",
+    "Specs": "Intel: i5-1240P ~ i7-1280P, Iris Xe; RAM: 16-32GB LPDDR4x; 存储: 512GB-1TB SSD; 显示屏: 14\"/15.6\" FHD/QHD IPS",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Creator",
+    "Model": "Creator Z17 / Z16",
+    "Specs": "Intel: i9-12900H ~ i7-12700H; GPU: RTX 3060 ~ 3080 Ti; RAM: 32-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 17\"/16\" QHD+ 触控",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Titan",
+    "Model": "Titan GT77",
+    "Specs": "Intel: i9-12900HX ~ i7-12800HX; GPU: RTX 3080 Ti ~ 3080; RAM: 16-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 17.3\" QHD 360Hz / UHD Mini-LED",
+    "ReleaseDate": "2022 年初 (CES)"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Raider",
+    "Model": "Raider GE76 / GE66",
+    "Specs": "Intel: i9-12900HX ~ i7-12700H; GPU: RTX 3080 Ti ~ 3070 Ti; RAM: 16-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 17.3\"/15.6\" QHD 240Hz",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Stealth",
+    "Model": "Stealth GS77 / GS66",
+    "Specs": "Intel: i9-12900H ~ i7-12700H; GPU: RTX 3080 Ti ~ 3060; RAM: 16-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 17.3\"/15.6\" QHD 165Hz",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Vector",
+    "Model": "Vector GP66 / GP76",
+    "Specs": "Intel: i7-12700H ~ i9-12900H; GPU: RTX 3080 ~ 3060; RAM: 16-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 15.6\"/17.3\" QHD 165Hz",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "MSI",
+    "Series": "Katana",
+    "Model": "Katana GF66 / GF76",
+    "Specs": "Intel: i7-12700H ~ i5-12500H; GPU: RTX 3070 ~ 3050 Ti; RAM: 8-32GB DDR4; 存储: 512GB-1TB SSD; 显示屏: 15.6\"/17.3\" FHD 144Hz",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Acer",
+    "Series": "Swift",
+    "Model": "Swift 3 / 5",
+    "Specs": "Intel: i5-1235U ~ i7-1255U, Iris Xe; RAM: 8-16GB LPDDR4x; 存储: 256GB-1TB SSD; 显示屏: 14\" FHD/OLED 触控",
+    "ReleaseDate": "2022 年初 (CES)"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Acer",
+    "Series": "Aspire",
+    "Model": "Aspire 5 (A515-57)",
+    "Specs": "Intel: i5-1235U ~ i7-1255U; AMD: Ryzen 5 5625U ~ Ryzen 7 5825U; GPU: Iris Xe / Radeon; RAM: 8-16GB DDR4; 显示屏: 15.6\" FHD IPS",
+    "ReleaseDate": "2022 全年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Acer",
+    "Series": "Nitro",
+    "Model": "Nitro 5 (AN515-58)",
+    "Specs": "Intel: i5-12500H ~ i7-12700H; GPU: RTX 3050 Ti ~ 3070 Ti; RAM: 8-32GB DDR4; 存储: 512GB-1TB SSD; 显示屏: 15.6\" FHD 144Hz",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Acer",
+    "Series": "Predator",
+    "Model": "Predator Helios 300",
+    "Specs": "Intel: i7-12700H ~ i9-12900H; GPU: RTX 3060 ~ 3080 Ti; RAM: 16-32GB DDR5; 存储: Up to 2TB SSD; 显示屏: 15.6\"/17.3\" QHD 165Hz",
+    "ReleaseDate": "2022 年初"
+  },
+  {
+    "Year": 2022,
+    "Brand": "Acer",
+    "Series": "Chromebook",
+    "Model": "Chromebook Spin 514",
+    "Specs": "Intel: i3-N305 ~ i5-1235U, UHD/Iris Xe; RAM: 8GB LPDDR4x; 存储: 128GB-512GB eMMC/SSD; 显示屏: 14\" FHD 触控",
+    "ReleaseDate": "2022 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "ASUS",
+    "Series": "Zenbook",
+    "Model": "Zenbook Pro 16X OLED (UX7602)",
+    "Specs": "Intel: i9-13905H; GPU: RTX 4080; RAM: 32-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 16\" 3.2K OLED 120Hz 触控",
+    "ReleaseDate": "2023 年初"
+  },
+  {
+    "Year": 2023,
+    "Brand": "ASUS",
+    "Series": "Vivobook",
+    "Model": "Vivobook 14X / 16X OLED (K3405 / K3605)",
+    "Specs": "Intel: i5-13500H ~ i9-13900H, Iris Xe / RTX 3050-4050; AMD: Ryzen 5 7535HS ~ Ryzen 9 7940HS, Radeon; RAM: 8-32GB DDR4/DDR5; 显示屏: 14\"/16\" 2.8K/3.2K OLED",
+    "ReleaseDate": "2023 年 4 月"
+  },
+  {
+    "Year": 2023,
+    "Brand": "ASUS",
+    "Series": "ROG",
+    "Model": "ROG Strix G16 (G614)",
+    "Specs": "Intel: i5-13450HX ~ i9-13980HX; AMD: Ryzen 9 7945HX; GPU: RTX 4050 ~ 4080; RAM: 16-32GB DDR5; 存储: 512GB-2TB SSD; 显示屏: 16\" QHD+ 240Hz",
+    "ReleaseDate": "2023 年 1 月"
+  },
+  {
+    "Year": 2023,
+    "Brand": "ASUS",
+    "Series": "TUF Gaming",
+    "Model": "TUF Gaming A15 (FA507)",
+    "Specs": "Intel: i5-13500H ~ i9-13900H; AMD: Ryzen 7 7735HS ~ Ryzen 9 7940HS; GPU: RTX 4050 ~ 4070; RAM: 8-32GB DDR5; 存储: 512GB-2TB SSD; 显示屏: 15.6\" FHD 144Hz",
+    "ReleaseDate": "2023 年初"
+  },
+  {
+    "Year": 2023,
+    "Brand": "ASUS",
+    "Series": "ExpertBook",
+    "Model": "ExpertBook B5 (B5402)",
+    "Specs": "Intel: i5-1335U ~ i7-1355U, Iris Xe; RAM: 8-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 14\" FHD",
+    "ReleaseDate": "2023 年 3 月"
+  },
+  {
+    "Year": 2023,
+    "Brand": "ASUS",
+    "Series": "ProArt",
+    "Model": "ProArt Studiobook 16 3D OLED (H7604)",
+    "Specs": "Intel: i9-13980HX; GPU: RTX 3000 Ada; RAM: Up to 64GB; 存储: Up to 8TB; 显示屏: 16\" 3.2K 3D OLED 120Hz",
+    "ReleaseDate": "2023 年初 (CES)"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Dell",
+    "Series": "XPS",
+    "Model": "XPS 15 (9530) / XPS 17 (9730)",
+    "Specs": "Intel: i5-13500H ~ i9-13900H; GPU: Arc A370M / RTX 4050-4080; RAM: 8-64GB DDR5; 存储: 256GB-8TB SSD; 显示屏: 15.6\"/17\" FHD+ / UHD+ OLED",
+    "ReleaseDate": "2023 年 3 月 / 年初"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Dell",
+    "Series": "Inspiron",
+    "Model": "Inspiron 14 Plus (7430) / Inspiron 15 (3535)",
+    "Specs": "Intel: i5-1335U ~ i7-1355U; AMD: Ryzen 7 7730U; GPU: Iris Xe / Radeon; RAM: 8-16GB LPDDR5; 存储: 256GB-1TB SSD; 显示屏: 14\"/15.6\" 2.5K / 2K 触控",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Dell",
+    "Series": "G Series",
+    "Model": "G15 5530",
+    "Specs": "Intel: i5-13450HX ~ i9-13900HX; GPU: RTX 3050 ~ 4060; RAM: 8-32GB DDR5; 存储: 512GB-2TB SSD; 显示屏: 15.6\" FHD 120Hz / QHD 240Hz",
+    "ReleaseDate": "2023 年 1 月"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Dell",
+    "Series": "Latitude",
+    "Model": "Latitude 7440 / 845 G10",
+    "Specs": "Intel: i5-1335U ~ i7-1365U; AMD: Ryzen 5 PRO 7540U ~ Ryzen 7 PRO 7840U; RAM: Up to 64GB; 存储: Up to 2TB SSD; 显示屏: 14\" FHD+ / QHD+",
+    "ReleaseDate": "2023 年 3 月"
+  },
+  {
+    "Year": 2023,
+    "Brand": "HP",
+    "Series": "Spectre",
+    "Model": "Spectre x360 14",
+    "Specs": "Intel: i7-1355U / i7-1360P; Iris Xe; RAM: 16GB LPDDR5; 存储: 512GB-1TB SSD; 显示屏: 13.5\" 3K OLED 触控",
+    "ReleaseDate": "2023 年初"
+  },
+  {
+    "Year": 2023,
+    "Brand": "HP",
+    "Series": "Envy",
+    "Model": "Envy x360 15 / Envy 16",
+    "Specs": "Intel: i5-1335U ~ i9-13900H; AMD: Ryzen 7 7730U ~ Ryzen 9 7940HS; GPU: RTX 3050/4050; RAM: 8-32GB; 显示屏: 15.6\"/16\" 2.8K OLED",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "HP",
+    "Series": "Omen",
+    "Model": "Omen 16 / 17",
+    "Specs": "Intel: i7-13700HX ~ i9-13900HX; AMD: Ryzen 7 7840HS ~ Ryzen 9 7945HX; GPU: RTX 4060 ~ 4090; RAM: 16-64GB DDR5; 显示屏: 16.1\"/17.3\" QHD 240Hz",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "HP",
+    "Series": "Victus",
+    "Model": "Victus 15 / 16",
+    "Specs": "Intel: i5-13420H ~ i7-13700H; AMD: Ryzen 5 7535HS ~ Ryzen 7 7840HS; GPU: RTX 4050 ~ 4070; RAM: 8-32GB DDR4; 显示屏: 15.6\"/16.1\" FHD 144Hz",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "HP",
+    "Series": "EliteBook",
+    "Model": "EliteBook 845 G10",
+    "Specs": "AMD: Ryzen 5 PRO 7540U ~ Ryzen 7 PRO 7840U; Intel: i5-1335U ~ i7-1355U; RAM: 16-64GB; 存储: Up to 2TB SSD; 显示屏: 14\" WUXGA",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Modern",
+    "Model": "Modern 15 H (C13M / B13M)",
+    "Specs": "Intel: i5-1335U ~ i9-13900H, Iris Xe / Arc; RAM: 8-32GB DDR4/DDR5; 存储: 512GB-1TB SSD; 显示屏: 15.6\" FHD IPS",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Prestige",
+    "Model": "Prestige 16 Studio",
+    "Specs": "Intel: i7-13700H ~ i9-13900H; GPU: RTX 4050 ~ 4060; RAM: 16-32GB LPDDR5; 存储: Up to 2TB SSD; 显示屏: 16\" QHD+ OLED/Mini-LED",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Titan",
+    "Model": "Titan GT77 HX",
+    "Specs": "Intel: i9-13980HX ~ i9-13950HX; GPU: RTX 4090 ~ 4080; RAM: 32-128GB DDR5; 存储: Up to 8TB SSD; 显示屏: 17.3\" UHD Mini-LED 144Hz",
+    "ReleaseDate": "2023 年初 (CES)"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Raider",
+    "Model": "Raider GE78 / GE68 HX",
+    "Specs": "Intel: i9-13980HX ~ i7-13700HX; GPU: RTX 4090 ~ 4070; RAM: 32-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 17\"/16\" QHD 240Hz",
+    "ReleaseDate": "2023 年 1 月"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Stealth",
+    "Model": "Stealth 16 / 17 Studio",
+    "Specs": "Intel: i9-13900H ~ i7-13700H; GPU: RTX 4070 ~ 4090; RAM: 16-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 16\"/17\" QHD+ 165Hz OLED",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Vector",
+    "Model": "Vector GP78 / GP68 HX",
+    "Specs": "Intel: i9-13950HX ~ i7-13700HX; GPU: RTX 4080 ~ 4060; RAM: 16-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 17\"/16\" QHD 240Hz",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Katana",
+    "Model": "Katana 15 / 17",
+    "Specs": "Intel: i7-13620H ~ i5-13420H; GPU: RTX 4070 ~ 4050; RAM: 8-32GB DDR5; 存储: 512GB-1TB SSD; 显示屏: 15.6\"/17.3\" FHD 144Hz",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "MSI",
+    "Series": "Cyborg",
+    "Model": "Cyborg 15",
+    "Specs": "Intel: i7-13620H ~ i5-12450H; GPU: RTX 4060 ~ 4050; RAM: 8-32GB DDR5; 存储: 512GB SSD; 显示屏: 15.6\" FHD 144Hz",
+    "ReleaseDate": "2023 年中"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Acer",
+    "Series": "Swift",
+    "Model": "Swift Go 14 / Swift X 14",
+    "Specs": "Intel: i5-1335U ~ i7-13700H, Iris Xe / RTX 4050; RAM: 16GB LPDDR5; 存储: 512GB-1TB SSD; 显示屏: 14\" 2.8K OLED 90Hz",
+    "ReleaseDate": "2023 年初"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Acer",
+    "Series": "Aspire",
+    "Model": "Aspire 5 / Vero 15",
+    "Specs": "Intel: i5-1335U ~ i7-1355U; AMD: Ryzen 5 7530U ~ Ryzen 7 7730U; GPU: Iris Xe / Radeon; RAM: 8-16GB; 显示屏: 15.6\" FHD IPS",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Acer",
+    "Series": "Nitro",
+    "Model": "Nitro 5 / 16",
+    "Specs": "Intel: i5-13420H ~ i7-13700H; AMD: Ryzen 7 7735HS; GPU: RTX 4050 ~ 4070; RAM: 8-32GB DDR5; 存储: 512GB-1TB SSD; 显示屏: 15.6\"/16\" FHD/QHD 165Hz",
+    "ReleaseDate": "2023 年"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Acer",
+    "Series": "Predator",
+    "Model": "Predator Helios 16 / 18",
+    "Specs": "Intel: i7-13700HX ~ i9-13900HX; GPU: RTX 4070 ~ 4090; RAM: 16-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 16\"/18\" QHD+ 240Hz Mini-LED",
+    "ReleaseDate": "2023 年初 (CES)"
+  },
+  {
+    "Year": 2023,
+    "Brand": "Acer",
+    "Series": "Chromebook",
+    "Model": "Chromebook Plus 514",
+    "Specs": "Intel: i3-N305 ~ Core i5; RAM: 8-16GB; 存储: 128GB-512GB eMMC; 显示屏: 14\" FHD 触控",
+    "ReleaseDate": "2023 年末"
+  },
+  {
+    "Year": 2024,
+    "Brand": "ASUS",
+    "Series": "Zenbook",
+    "Model": "Zenbook S 13 OLED (UX5304)",
+    "Specs": "Intel: Core Ultra 5 125H ~ Ultra 7 155H, Arc; RAM: 16-32GB LPDDR5x; 存储: 512GB-1TB SSD; 显示屏: 13.3\" 2.8K OLED 60Hz",
+    "ReleaseDate": "2024 年 1 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "ASUS",
+    "Series": "Zenbook",
+    "Model": "Zenbook 14 OLED (UX3405 / UM3406)",
+    "Specs": "Intel: Core Ultra 5/7/9 155H-185H, Arc; AMD: Ryzen AI 9 HX 370 / Ryzen 7 8840HS, Radeon 890M; RAM: 16-32GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 14\" 3K OLED 120Hz",
+    "ReleaseDate": "2024 年 1-2 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "ASUS",
+    "Series": "Vivobook",
+    "Model": "Vivobook S 15 OLED (S5506)",
+    "Specs": "Intel: Core Ultra 5 125H ~ Ultra 9 185H, Arc; AMD: Ryzen AI 9 HX 370, Radeon; RAM: 16-32GB LPDDR5x; 存储: Up to 1TB SSD; 显示屏: 15.6\" 3K OLED 120Hz",
+    "ReleaseDate": "2024 年 2 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "ASUS",
+    "Series": "ROG",
+    "Model": "ROG Zephyrus G14 (GA403)",
+    "Specs": "AMD: Ryzen 9 8945HS / AI 9 HX 370, Radeon; GPU: RTX 4050-4070; RAM: 16-32GB LPDDR5x; 存储: 512GB-1TB SSD; 显示屏: 14\" 3K OLED 120Hz",
+    "ReleaseDate": "2024 年 1 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "ASUS",
+    "Series": "TUF Gaming",
+    "Model": "TUF Gaming A14 (FA401)",
+    "Specs": "AMD: Ryzen AI 9 HX 370, Radeon; GPU: RTX 4060; RAM: 16-32GB LPDDR5x; 存储: Up to 2TB SSD; 显示屏: 14\" 2.5K IPS 144Hz",
+    "ReleaseDate": "2024 年 6 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "ASUS",
+    "Series": "ProArt",
+    "Model": "ProArt P16 (H7606)",
+    "Specs": "AMD: Ryzen AI 9 HX 370, Radeon; GPU: RTX 4070; RAM: 32-64GB LPDDR5x; 存储: Up to 4TB SSD; 显示屏: 16\" 4K OLED 触控",
+    "ReleaseDate": "2024 年 6 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Dell",
+    "Series": "XPS",
+    "Model": "XPS 13 (9340/9345)",
+    "Specs": "Intel: Core Ultra 5/7 125H-165H, Arc; Snapdragon X Elite, Adreno; RAM: 8-64GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 13.4\" FHD+ / OLED",
+    "ReleaseDate": "2024 Q1 / 7 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Dell",
+    "Series": "XPS",
+    "Model": "XPS 14 (9440) / XPS 16 (9640)",
+    "Specs": "Intel: Core Ultra 7 155H-185H, Arc / RTX 4050-4070; RAM: 16-64GB LPDDR5x; 存储: 512GB-4TB SSD; 显示屏: 14.5\"/16.3\" FHD+ / OLED 120Hz",
+    "ReleaseDate": "2024 年 2 月 / Q1"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Dell",
+    "Series": "Inspiron",
+    "Model": "Inspiron 14 Plus (7441 Snapdragon)",
+    "Specs": "Snapdragon X Plus, Adreno; RAM: 16GB LPDDR5x; 存储: 512GB-1TB; 显示屏: 14\" QHD+ 触控",
+    "ReleaseDate": "2024 年 6 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Dell",
+    "Series": "Alienware",
+    "Model": "Alienware m16 R2",
+    "Specs": "Intel: Core Ultra 7 155H ~ Ultra 9 185H; GPU: RTX 4070; RAM: 16-64GB DDR5; 存储: Up to 8TB; 显示屏: 16\" QHD+ 240Hz",
+    "ReleaseDate": "2024 年 1 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Dell",
+    "Series": "G Series",
+    "Model": "G16 7630",
+    "Specs": "Intel: i7-13650HX ~ i9-13900HX; GPU: RTX 4070; RAM: 16-32GB DDR5; 存储: 1TB-2TB; 显示屏: 16\" QHD+ 240Hz",
+    "ReleaseDate": "2024 年初"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Dell",
+    "Series": "Latitude",
+    "Model": "Latitude 7350 Detachable",
+    "Specs": "Intel: Core Ultra 5 134U ~ Ultra 7 164U, Intel Graphics; RAM: 8-32GB LPDDR5x; 存储: 256GB-1TB; 显示屏: 13\" 3K 触控",
+    "ReleaseDate": "2024 Q2"
+  },
+  {
+    "Year": 2024,
+    "Brand": "HP",
+    "Series": "Spectre",
+    "Model": "Spectre x360 14",
+    "Specs": "Intel: Core Ultra 5 125H ~ Ultra 7 155H, Arc; RAM: 16-32GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 14\" 2.8K OLED 触控",
+    "ReleaseDate": "2024 年初"
+  },
+  {
+    "Year": 2024,
+    "Brand": "HP",
+    "Series": "OmniBook",
+    "Model": "OmniBook X 14",
+    "Specs": "Snapdragon X Elite, Adreno; RAM: 16-32GB; 存储: 512GB-1TB; 显示屏: 14\" 2.2K IPS/OLED",
+    "ReleaseDate": "2024 年中"
+  },
+  {
+    "Year": 2024,
+    "Brand": "HP",
+    "Series": "OmniBook",
+    "Model": "OmniBook Ultra Flip 14",
+    "Specs": "Intel: Core Ultra 7 155H ~ Ultra 9 185H, Arc / RTX 4050; RAM: 16-32GB; 存储: 512GB-2TB; 显示屏: 14\" 3K OLED 触控",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "HP",
+    "Series": "Omen",
+    "Model": "Omen 16 / Transcend 14",
+    "Specs": "Intel: Core Ultra 7/9; AMD: Ryzen AI 9 HX 370; GPU: RTX 4060 ~ 4070; RAM: 16-64GB; 存储: Up to 2TB; 显示屏: 16\" QHD 240Hz",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "HP",
+    "Series": "Victus",
+    "Model": "Victus 16",
+    "Specs": "Intel: Core Ultra / 14th Gen HX; AMD: Ryzen 7 8845HS; GPU: RTX 4050 ~ 4070; RAM: 8-32GB; 存储: 512GB-1TB; 显示屏: 16.1\" FHD/QHD",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "HP",
+    "Series": "EliteBook",
+    "Model": "EliteBook Ultra G1q",
+    "Specs": "Intel: Core Ultra; AMD: Ryzen AI PRO; RAM: 16-64GB; 存储: Up to 2TB; 显示屏: 14\" WUXGA/OLED",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Modern",
+    "Model": "Modern 15 H AI (C1M)",
+    "Specs": "Intel: Core Ultra 5 125H ~ Ultra 9 185H, Arc; RAM: 16-32GB DDR5; 存储: 512GB-1TB SSD; 显示屏: 15.6\" FHD IPS",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Prestige",
+    "Model": "Prestige 16 AI Evo",
+    "Specs": "Intel: Core Ultra 7 155H ~ Ultra 9 185H, Arc / RTX 4050; RAM: 16-32GB LPDDR5x; 存储: Up to 2TB SSD; 显示屏: 16\" QHD+ OLED",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Titan",
+    "Model": "Titan 18 HX (A14V)",
+    "Specs": "Intel: i9-14900HX; GPU: RTX 4090; RAM: 32-128GB DDR5; 存储: Up to 8TB SSD; 显示屏: 18\" UHD+ Mini-LED 120Hz",
+    "ReleaseDate": "2024 年初 (CES)"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Raider",
+    "Model": "Raider 18 HX / GE68",
+    "Specs": "Intel: i9-14900HX ~ i7-14650HX; GPU: RTX 4090 ~ 4070; RAM: 32-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 18\"/16\" QHD+ 240Hz",
+    "ReleaseDate": "2024 年 1 月"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Stealth",
+    "Model": "Stealth 16 AI Studio / 14 Studio",
+    "Specs": "Intel: Core Ultra 9 185H ~ Ultra 7 155H; GPU: RTX 4070 ~ 4050; RAM: 16-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 16\" QHD+ OLED 120Hz",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Vector",
+    "Model": "Vector 16 HX / 17 HX",
+    "Specs": "Intel: Core Ultra 9 185H ~ i9-14900HX; GPU: RTX 4080 ~ 4060; RAM: 16-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 16\"/17\" QHD+ 240Hz",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Katana",
+    "Model": "Katana 15 / 17",
+    "Specs": "Intel: i7-14650HX ~ i5-13450HX; GPU: RTX 4070 ~ 4050; RAM: 8-32GB DDR5; 存储: 512GB-1TB SSD; 显示屏: 15.6\"/17.3\" FHD 144Hz",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "MSI",
+    "Series": "Cyborg",
+    "Model": "Cyborg 15 / 14",
+    "Specs": "Intel: i7-14650HX ~ i5-13420H; GPU: RTX 4060 ~ 4050; RAM: 8-32GB DDR5; 存储: 512GB SSD; 显示屏: 15.6\"/14\" FHD 144Hz",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Acer",
+    "Series": "Swift",
+    "Model": "Swift Go 14 (2024) / Swift Edge 16",
+    "Specs": "Intel: Core Ultra 5 125H ~ Ultra 9 185H, Arc; RAM: 16-32GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 14\" 2.8K OLED 90Hz / 16\" 3K OLED",
+    "ReleaseDate": "2024 年初"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Acer",
+    "Series": "Swift",
+    "Model": "Swift 14 AI (Snapdragon)",
+    "Specs": "Snapdragon X Elite / Plus, Adreno; RAM: 16-32GB LPDDR5x; 存储: 512GB-1TB SSD; 显示屏: 14\" 2.2K/OLED",
+    "ReleaseDate": "2024 年中"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Acer",
+    "Series": "Aspire",
+    "Model": "Aspire Go 15 / Aspire 5",
+    "Specs": "Intel: Core Ultra / N-series; AMD: Ryzen 7 7730U ~ Ryzen AI 300; RAM: 8-16GB; 存储: 256GB-1TB SSD; 显示屏: 15.6\" FHD IPS",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Acer",
+    "Series": "Nitro",
+    "Model": "Nitro V 15 / 16 / 17",
+    "Specs": "Intel: Core i5-13420H ~ i7-14650HX; AMD: Ryzen 7 8845HS; GPU: RTX 4050 ~ 4070; RAM: 8-32GB DDR5; 存储: 512GB-2TB SSD; 显示屏: 15.6\"/16\"/17.3\" FHD/QHD 144-165Hz",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Acer",
+    "Series": "Predator",
+    "Model": "Predator Helios Neo 16 / Triton 14",
+    "Specs": "Intel: Core Ultra 9 185H; GPU: RTX 4060 ~ 4070; RAM: 16-32GB DDR5; 存储: Up to 2TB SSD; 显示屏: 16\" QHD+ 165Hz / 14\" OLED",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2024,
+    "Brand": "Acer",
+    "Series": "Chromebook",
+    "Model": "Chromebook Plus 516 GE",
+    "Specs": "Intel: Core i3-N305 ~ i5; RAM: 8-16GB; 存储: 128GB-512GB eMMC; 显示屏: 16\" QHD",
+    "ReleaseDate": "2024 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "ASUS",
+    "Series": "Zenbook",
+    "Model": "Zenbook 14 (UX3405CA / UM3406KA)",
+    "Specs": "Intel: Core Ultra 7 255H / Ultra 9 285H, Arc; AMD: Ryzen AI 7 350 / AI 9 HX 370, Radeon 860M; Snapdragon X Elite/Plus; RAM: 16-32GB LPDDR5x; 存储: 512GB-1TB SSD; 显示屏: 14\" 3K 120Hz OLED",
+    "ReleaseDate": "2025 年 Q1 (CES)"
+  },
+  {
+    "Year": 2025,
+    "Brand": "ASUS",
+    "Series": "Zenbook",
+    "Model": "Zenbook S 14 / S 16",
+    "Specs": "Intel: Core Ultra 7 265H / Ultra 9 285H, Arc; AMD: Ryzen AI 300/400; RAM: 16-32GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 14\"/16\" 3K OLED 120Hz",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "ASUS",
+    "Series": "Vivobook",
+    "Model": "Vivobook S 14 / S 16 (M3407 / M3607)",
+    "Specs": "Intel: Core Ultra 7/9 Series 2; AMD: Ryzen AI 7 350 / AI 9 HX 370 / 445; Snapdragon X; RAM: 16-32GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 14-16\" OLED 120Hz",
+    "ReleaseDate": "2025 年 CES 起"
+  },
+  {
+    "Year": 2025,
+    "Brand": "ASUS",
+    "Series": "Vivobook",
+    "Model": "Vivobook 14 / 16 (M1407 / M1607)",
+    "Specs": "AMD: Ryzen AI 5/7 340/350/445; Intel/Snapdragon 变体; RAM: 8-32GB; 存储: 512GB-2TB SSD; 显示屏: 14-16\" FHD/2K IPS/OLED",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "ASUS",
+    "Series": "ROG",
+    "Model": "ROG Strix G16 / G18",
+    "Specs": "Intel: Core Ultra 9 275HX; AMD: Ryzen 9 9955HX / 9955HX3D; GPU: RTX 5070 Ti; RAM: 32-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 16/18\" 2.5K 240Hz",
+    "ReleaseDate": "2025 年 1 月起"
+  },
+  {
+    "Year": 2025,
+    "Brand": "ASUS",
+    "Series": "TUF Gaming",
+    "Model": "TUF Gaming A14 / A16 (2025)",
+    "Specs": "AMD: Ryzen AI 9 465 / AI MAX+ 392; Intel 变体少; GPU: RTX 5070; RAM: 16-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 14\"/16\" QHD+ 165Hz",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Dell",
+    "Series": "Dell Premium",
+    "Model": "Dell 14 Premium / 16 Premium",
+    "Specs": "Intel: Core Ultra 7 255H / Ultra 9 285H, Arc / RTX 4050-4070; RAM: 16-64GB LPDDR5x; 存储: 512GB-4TB SSD; 显示屏: 14.5\"/16.3\" FHD+ / OLED 120Hz",
+    "ReleaseDate": "2025 年 6 月"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Dell",
+    "Series": "Dell Pro",
+    "Model": "Dell Pro 14 Plus / 16 Plus",
+    "Specs": "Intel: Core Ultra 7 266V / 255U; AMD: Ryzen AI 9 365; RAM: 16-64GB; 存储: 512GB-2TB SSD; 显示屏: 14\"/16\" QHD+ / FHD+",
+    "ReleaseDate": "2025 年 1 月 (部分) / 4 月"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Dell",
+    "Series": "Dell Pro Max",
+    "Model": "Dell Pro Max 16",
+    "Specs": "Intel: Core Ultra 9 285H; GPU: RTX 4070; RAM: 32-128GB LPDDR5x; 存储: 1TB-8TB SSD; 显示屏: 16\" 4K OLED",
+    "ReleaseDate": "2025 年春"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Dell",
+    "Series": "OmniBook",
+    "Model": "OmniBook 5 / 7 / X",
+    "Specs": "Intel: Core Ultra 7 255H / Ultra 9 285H; AMD: Ryzen AI 7 350 / AI Max; Snapdragon X Elite; GPU: RTX 4050-4070; RAM: 16-32GB; 存储: 512GB-2TB SSD; 显示屏: 14-16\" 2K/3K OLED",
+    "ReleaseDate": "2025 年中"
+  },
+  {
+    "Year": 2025,
+    "Brand": "HP",
+    "Series": "OmniBook",
+    "Model": "OmniBook 5 / 5 Flip 14",
+    "Specs": "Intel: Core Ultra 7 255H / 265H; AMD: Ryzen AI 7 350 ~ AI 9 HX 370; Snapdragon X Plus/Elite; RAM: 16-32GB; 存储: 512GB-2TB SSD; 显示屏: 14\" 2K OLED 触控",
+    "ReleaseDate": "2025 年中"
+  },
+  {
+    "Year": 2025,
+    "Brand": "HP",
+    "Series": "OmniBook",
+    "Model": "OmniBook 7 / 7 Aero",
+    "Specs": "Intel: Core Ultra 9 285H; AMD: Ryzen AI Max; GPU: RTX 4050 ~ 4070; RAM: 16-64GB; 存储: Up to 2TB SSD; 显示屏: 16\" 3K OLED",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "HP",
+    "Series": "OmniBook",
+    "Model": "OmniBook X 16 / Ultra 14",
+    "Specs": "Snapdragon X2 Elite; Intel Panther Lake; RAM: 16-32GB; 存储: Up to 2TB SSD; 显示屏: 16\" 2K/3K OLED",
+    "ReleaseDate": "2025-2026 CES 更新"
+  },
+  {
+    "Year": 2025,
+    "Brand": "HP",
+    "Series": "Omen",
+    "Model": "Omen Max 16",
+    "Specs": "Intel: Core Ultra 200HX; AMD: Ryzen 9 9955HX; GPU: RTX 5060 ~ 5090; RAM: 32-64GB; 存储: Up to 4TB SSD; 显示屏: 16\" QHD+ 高刷",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "HP",
+    "Series": "EliteBook",
+    "Model": "EliteBook Ultra G1i / X G1a",
+    "Specs": "Intel: Core Ultra Series 2; AMD: Ryzen AI PRO; RAM: 16-64GB; 存储: Up to 4TB SSD; 显示屏: 14-16\" OLED/WUXGA",
+    "ReleaseDate": "2025 年春-夏"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Modern",
+    "Model": "Modern 15 H AI (C2HM / C2RM)",
+    "Specs": "Intel: Core 5 210H ~ Core 9 270H / Ultra 9 285H; GPU: Graphics / Arc; RAM: 16-64GB DDR5; 存储: 512GB-4TB SSD; 显示屏: 15.6\" FHD IPS / 触控",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Prestige",
+    "Model": "Prestige 16 AI+ / 14 AI+ / 13 AI Evo",
+    "Specs": "Intel: Core Ultra Series 2 (Ultra 9 285H); GPU: Arc / RTX 4050; RAM: 16-64GB; 存储: Up to 4TB SSD; 显示屏: 16\"/14\"/13\" OLED 高刷",
+    "ReleaseDate": "2025-2026 CES"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Creator",
+    "Model": "Creator A16 / Venture Pro",
+    "Specs": "AMD: Ryzen AI 9 HX 370; Intel: Core Ultra; RAM: 32-64GB; 存储: Up to 4TB SSD; 显示屏: 16\" OLED",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Titan",
+    "Model": "Titan 18 HX AI (A2XW)",
+    "Specs": "Intel: Core Ultra 9 275HX / 285HX; GPU: RTX 5090 ~ 5080; RAM: 32-128GB DDR5; 存储: Up to 8TB SSD; 显示屏: 18\" 4K Mini-LED 120Hz",
+    "ReleaseDate": "2025 年 1 月 (CES)"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Raider",
+    "Model": "Raider 18 HX AI / Raider A18 HX",
+    "Specs": "Intel: Core Ultra 9 275HX; AMD: Ryzen 9 9955HX3D / 9955HX; GPU: RTX 5090 ~ 5070 Ti; RAM: 32-128GB DDR5; 存储: Up to 8TB SSD; 显示屏: 18\" QHD+ 240Hz / 4K Mini-LED",
+    "ReleaseDate": "2025 年 1 月"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Stealth",
+    "Model": "Stealth 16 AI+ / Stealth 18 AI",
+    "Specs": "Intel: Core Ultra 9 275HX / Ultra 200H; AMD: Ryzen AI 9 HX 370; GPU: RTX 5080 ~ 4060; RAM: 32-96GB DDR5; 存储: Up to 8TB SSD; 显示屏: 16\"/18\" QHD+ OLED 240Hz",
+    "ReleaseDate": "2025 年 1 月"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Vector",
+    "Model": "Vector 16 HX AI / Vector 17 HX AI / Vector A18 HX",
+    "Specs": "Intel: Core Ultra 9 275HX; AMD: Ryzen 9 9955HX; GPU: RTX 5090 ~ 5070 Ti; RAM: 32-96GB DDR5; 存储: Up to 8TB SSD; 显示屏: 16\"/17\"/18\" QHD+ 240Hz",
+    "ReleaseDate": "2025 年 1 月"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Crosshair",
+    "Model": "Crosshair 16 HX AI / Crosshair 18 HX",
+    "Specs": "Intel: Core Ultra 9 275HX; GPU: RTX 5080 ~ 5060; RAM: 32-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 16\"/18\" QHD+ 240Hz",
+    "ReleaseDate": "2025 年中"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Katana",
+    "Model": "Katana 15 / 17 HX",
+    "Specs": "Intel: Core i9-14900HX / Core Ultra; AMD: Ryzen 9 270 / Ryzen 7 260; GPU: RTX 5070 ~ 5050; RAM: 16-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 15.6\"/17.3\" FHD 144Hz",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "MSI",
+    "Series": "Cyborg",
+    "Model": "Cyborg 15 MAX / Cyborg 14",
+    "Specs": "Intel: Core 7 240H / Core Ultra; AMD: Ryzen 7 260; GPU: RTX 5060 ~ 5050; RAM: 16-64GB DDR5; 存储: Up to 2TB SSD; 显示屏: 15.6\"/14\" FHD 144Hz",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "Swift",
+    "Model": "Swift 14 AI / Swift 16 AI",
+    "Specs": "Intel: Core Ultra Series 2 (Ultra 9 285H); AMD: Ryzen AI 9 365 ~ AI 300; Snapdragon X Elite/Plus; GPU: Arc / Adreno; RAM: 16-32GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 14\"/16\" 3K OLED 120Hz",
+    "ReleaseDate": "2025 年 Q1-Q2"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "Swift",
+    "Model": "Swift X 14 AI / Swift Edge 14 AI",
+    "Specs": "Intel: Core Ultra 9 285H; AMD: Ryzen AI 9 365; GPU: RTX 5070; RAM: 16-32GB LPDDR5x; 存储: 512GB-2TB SSD; 显示屏: 14\" 3K OLED 触控",
+    "ReleaseDate": "2025 年春-夏"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "Aspire",
+    "Model": "Aspire 14/16 AI",
+    "Specs": "Intel: Core Ultra Series 2; AMD: Ryzen AI 300 / Ryzen 7/9; Snapdragon X; RAM: 8-32GB; 存储: 512GB-2TB SSD; 显示屏: 14\"/16\" FHD/2K IPS/OLED",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "Nitro",
+    "Model": "Nitro V 14/15/16/17 AI",
+    "Specs": "AMD: Ryzen AI 9 465 / Ryzen 7 260; Intel: Core Ultra; GPU: RTX 5050 ~ 5070; RAM: 8-32GB DDR5; 存储: 512GB-2TB SSD; 显示屏: 14.5\"-17\" QHD 165Hz",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "Predator",
+    "Model": "Predator Helios Neo 14 AI / Helios 16/18 AI",
+    "Specs": "Intel: Core Ultra 9 285H / 275HX; GPU: RTX 5070 ~ 5090; RAM: 16-64GB DDR5; 存储: Up to 4TB SSD; 显示屏: 14\"/16\"/18\" QHD+ 240Hz / Mini-LED",
+    "ReleaseDate": "2025 年 1 月 (CES)"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "Predator",
+    "Model": "Predator Triton 14 AI",
+    "Specs": "Intel: Core Ultra 9; GPU: RTX 5070; RAM: 16-32GB DDR5; 存储: Up to 2TB SSD; 显示屏: 14\" OLED 高刷",
+    "ReleaseDate": "2025 年中"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "Chromebook",
+    "Model": "Chromebook Plus Spin 514",
+    "Specs": "Intel/AMD; RAM: 8-16GB; 存储: 128GB-512GB eMMC; 显示屏: 14\" FHD 触控",
+    "ReleaseDate": "2025 年"
+  },
+  {
+    "Year": 2025,
+    "Brand": "Acer",
+    "Series": "TravelMate",
+    "Model": "TravelMate X4 14 AI / Vero 16",
+    "Specs": "Intel: Core Ultra; AMD: Ryzen AI PRO; RAM: 16-32GB; 存储: Up to 2TB SSD; 显示屏: 14\"/16\" WUXGA/OLED",
+    "ReleaseDate": "2025 年"
+  }
+]
