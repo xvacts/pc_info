@@ -1,36 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>Laptop Database</title>
+  <title>筆電資訊</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    #search { width: 300px; margin-bottom: 10px; }
+    body { font-family: Arial, sans-serif; margin: 20px; }
     table { border-collapse: collapse; width: 100%; }
     th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
     th { background-color: #f2f2f2; }
-    .comments { margin-top: 5px; }
-    .comment-form { margin-top: 10px; }
-    .comment-form input, .comment-form textarea { width: 100%; margin-bottom: 5px; }
   </style>
 </head>
 <body>
-  <h1>Laptop Database</h1>
-  <input type="text" id="search" placeholder="Search by brand, model, year...">
-  <table id="laptopTable">
+  <h1>筆電清單</h1>
+  <table id="laptops-table">
     <thead>
       <tr>
-        <th>Year</th>
-        <th>Brand</th>
-        <th>Series</th>
-        <th>Model</th>
-        <th>Specs</th>
-        <th>Release Date</th>
-        <th>Comments</th>
+        <th>年份</th>
+        <th>品牌</th>
+        <th>系列</th>
+        <th>型號</th>
+        <th>規格</th>
+        <th>發售日期</th>
       </tr>
     </thead>
-    <tbody id="tableBody"></tbody>
+    <tbody></tbody>
   </table>
-  <script src="script.js"></script>
+
+  <script>
+    fetch('/api/laptops')
+      .then(response => response.json())
+      .then(data => {
+        const tbody = document.querySelector('#laptops-table tbody');
+        data.forEach(item => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${item.year || '-'}</td>
+            <td>${item.brand || '-'}</td>
+            <td>${item.series || '-'}</td>
+            <td>${item.model || '-'}</td>
+            <td>${item.specs || '-'}</td>
+            <td>${item.release_date || '-'}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      })
+      .catch(error => {
+        console.error('載入失敗:', error);
+        document.body.innerHTML += '<p style="color:red;">無法載入資料，請檢查 API</p>';
+      });
+  </script>
 </body>
 </html>
