@@ -2,66 +2,236 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <title>筆電資訊</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>筆電資訊 - wei 的小工具</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    h1 { text-align: center; }
-    .controls { margin-bottom: 20px; text-align: center; }
-    input[type="text"] { padding: 8px; width: 300px; font-size: 16px; }
-    button { padding: 8px 16px; font-size: 16px; margin-left: 10px; cursor: pointer; }
-    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
-    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
-    th { background-color: #f2f2f2; }
-    .comment-btn { background: #4CAF50; color: white; border: none; padding: 6px 12px; cursor: pointer; border-radius: 4px; }
-    .comment-btn:hover { background: #45a049; }
-    #no-results { color: red; text-align: center; margin-top: 20px; display: none; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f7fa;
+      color: #333;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+    .search-box {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    #searchInput {
+      padding: 12px 16px;
+      width: 350px;
+      max-width: 90%;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 16px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    button {
+      padding: 12px 20px;
+      margin-left: 10px;
+      background: #3498db;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background: #2980b9;
+    }
+    button.clear {
+      background: #95a5a6;
+    }
+    button.clear:hover {
+      background: #7f8c8d;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 14px 12px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+    th {
+      background: #34495e;
+      color: white;
+    }
+    tr:hover {
+      background: #f8f9fa;
+    }
+    .comment-btn {
+      background: #27ae60;
+      color: white;
+      border: none;
+      padding: 8px 14px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background 0.2s;
+    }
+    .comment-btn:hover {
+      background: #219653;
+    }
+    #no-results {
+      text-align: center;
+      color: #e74c3c;
+      font-size: 18px;
+      margin-top: 40px;
+      display: none;
+    }
+
+    /* Modal 樣式 */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      overflow: auto;
+    }
+    .modal-content {
+      background: white;
+      margin: 10% auto;
+      padding: 25px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 600px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .close:hover {
+      color: #333;
+    }
+    #comment-list {
+      max-height: 300px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #eee;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .comment-item {
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #eee;
+    }
+    .comment-item:last-child {
+      border-bottom: none;
+    }
+    .comment-username {
+      font-weight: bold;
+      color: #2c3e50;
+    }
+    .comment-time {
+      color: #7f8c8d;
+      font-size: 0.9em;
+      margin-left: 10px;
+    }
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding: 12px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      resize: vertical;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    #submit-comment {
+      background: #e67e22;
+    }
+    #submit-comment:hover {
+      background: #d35400;
+    }
   </style>
 </head>
 <body>
-  <h1>筆電清單</h1>
+  <div class="container">
+    <h1>筆電資訊</h1>
 
-  <div class="controls">
-    <input type="text" id="searchInput" placeholder="搜尋品牌、型號、年份、規格...">
-    <button onclick="searchTable()">搜尋</button>
-    <button onclick="clearSearch()">清除</button>
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="搜尋品牌、型號、年份、規格...">
+      <button onclick="searchTable()">搜尋</button>
+      <button class="clear" onclick="clearSearch()">清除</button>
+    </div>
+
+    <table id="laptops-table">
+      <thead>
+        <tr>
+          <th>年份</th>
+          <th>品牌</th>
+          <th>系列</th>
+          <th>型號</th>
+          <th>規格</th>
+          <th>發售日期</th>
+          <th>評論</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+
+    <p id="no-results">沒有找到符合條件的筆電</p>
   </div>
 
-  <table id="laptops-table">
-    <thead>
-      <tr>
-        <th>年份</th>
-        <th>品牌</th>
-        <th>系列</th>
-        <th>型號</th>
-        <th>規格</th>
-        <th>發售日期</th>
-        <th>操作</th>
-      </tr>
-    </thead>
-    <tbody id="tableBody"></tbody>
-  </table>
+  <!-- Modal -->
+  <div id="commentModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle">對 <span id="currentModel"></span> 的評論</h2>
+      
+      <div id="comment-list"></div>
 
-  <p id="no-results">沒有找到符合條件的筆電</p>
+      <textarea id="newComment" placeholder="寫下你的看法...（最多 500 字）"></textarea>
+      <input type="text" id="username" placeholder="你的暱稱（選填，預設匿名）" style="width:100%; padding:10px; margin-bottom:10px; border-radius:8px; border:1px solid #ddd;">
+
+      <button id="submit-comment" onclick="submitComment()">送出評論</button>
+    </div>
+  </div>
 
   <script>
-    let allData = []; // 儲存所有原始資料
+    let allData = [];
+    let currentModel = '';
 
     // 載入資料
     fetch('/api/laptops')
-      .then(response => response.json())
+      .then(res => res.json())
       .then(data => {
         allData = data;
         renderTable(allData);
       })
-      .catch(error => {
-        console.error('載入失敗:', error);
-        document.body.innerHTML += '<p style="color:red; text-align:center;">無法載入資料，請稍後再試</p>';
+      .catch(err => {
+        console.error(err);
+        document.body.innerHTML += '<p style="color:red;text-align:center;">無法載入筆電資料</p>';
       });
 
-    // 渲染表格
     function renderTable(data) {
       const tbody = document.getElementById('tableBody');
-      tbody.innerHTML = ''; // 清空
+      tbody.innerHTML = '';
 
       if (data.length === 0) {
         document.getElementById('no-results').style.display = 'block';
@@ -80,8 +250,7 @@
           <td>${item.specs || '-'}</td>
           <td>${item.release_date || '-'}</td>
           <td>
-            <button class="comment-btn" 
-                    onclick="showComments('${item.model.replace(/'/g, "\\'")}')">
+            <button class="comment-btn" onclick="openComments('${item.model.replace(/'/g, "\\'")}')">
               查看/新增評論
             </button>
           </td>
@@ -90,39 +259,91 @@
       });
     }
 
-    // 搜尋功能（前端過濾）
     function searchTable() {
       const input = document.getElementById('searchInput').value.toLowerCase().trim();
-      if (!input) {
-        renderTable(allData);
-        return;
-      }
+      if (!input) return renderTable(allData);
 
-      const filtered = allData.filter(item => {
-        return (
-          (item.year + '').toLowerCase().includes(input) ||
-          (item.brand || '').toLowerCase().includes(input) ||
-          (item.series || '').toLowerCase().includes(input) ||
-          (item.model || '').toLowerCase().includes(input) ||
-          (item.specs || '').toLowerCase().includes(input) ||
-          (item.release_date || '').toLowerCase().includes(input)
-        );
-      });
-
+      const filtered = allData.filter(item =>
+        Object.values(item).some(val =>
+          (val + '').toLowerCase().includes(input)
+        )
+      );
       renderTable(filtered);
     }
 
-    // 清除搜尋
     function clearSearch() {
       document.getElementById('searchInput').value = '';
       renderTable(allData);
     }
 
-    // 點擊「查看/新增評論」後的動作（目前只是示範，可擴充）
-    function showComments(model) {
-      alert(`目前還沒有評論系統。\n\n你想對「${model}」留下評論嗎？\n（未來會連到評論頁面或彈窗）`);
-      // 未來可改成：跳轉到 /comments?model=xxx 或開 modal 輸入評論
+    // 開啟 modal 並載入評論
+    function openComments(model) {
+      currentModel = model;
+      document.getElementById('currentModel').textContent = model;
+      document.getElementById('commentModal').style.display = 'block';
+      document.getElementById('newComment').value = '';
+      document.getElementById('username').value = '';
+
+      fetch(`/api/comments?model=${encodeURIComponent(model)}`)
+        .then(res => res.json())
+        .then(comments => {
+          const list = document.getElementById('comment-list');
+          list.innerHTML = comments.length === 0
+            ? '<p style="color:#777;text-align:center;">還沒有人留下評論～</p>'
+            : comments.map(c => `
+                <div class="comment-item">
+                  <span class="comment-username">${c.username}</span>
+                  <span class="comment-time">${c.created_at}</span>
+                  <p>${c.comment}</p>
+                </div>
+              `).join('');
+        })
+        .catch(err => {
+          document.getElementById('comment-list').innerHTML = '<p style="color:red;">載入評論失敗</p>';
+        });
     }
+
+    function closeModal() {
+      document.getElementById('commentModal').style.display = 'none';
+    }
+
+    // 送出評論
+    function submitComment() {
+      const comment = document.getElementById('newComment').value.trim();
+      const username = document.getElementById('username').value.trim() || '匿名';
+
+      if (!comment) {
+        alert('請輸入評論內容');
+        return;
+      }
+
+      fetch('/api/comments', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ model: currentModel, comment, username })
+      })
+      .then(res => {
+        if (!res.ok) throw new Error('送出失敗');
+        return res.json();
+      })
+      .then(() => {
+        alert('評論已送出！');
+        closeModal();
+        // 可選：重新開啟 modal 看新評論
+        openComments(currentModel);
+      })
+      .catch(err => {
+        alert('送出失敗：' + err.message);
+      });
+    }
+
+    // 點擊 modal 外面關閉
+    window.onclick = function(event) {
+      const modal = document.getElementById('commentModal');
+      if (event.target === modal) {
+        closeModal();
+      }
+    };
   </script>
 </body>
 </html>
