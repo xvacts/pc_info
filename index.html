@@ -5,13 +5,27 @@
   <title>筆電資訊</title>
   <style>
     body { font-family: Arial, sans-serif; margin: 20px; }
-    table { border-collapse: collapse; width: 100%; }
-    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+    h1 { text-align: center; }
+    .controls { margin-bottom: 20px; text-align: center; }
+    input[type="text"] { padding: 8px; width: 300px; font-size: 16px; }
+    button { padding: 8px 16px; font-size: 16px; margin-left: 10px; cursor: pointer; }
+    table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+    th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
     th { background-color: #f2f2f2; }
+    .comment-btn { background: #4CAF50; color: white; border: none; padding: 6px 12px; cursor: pointer; border-radius: 4px; }
+    .comment-btn:hover { background: #45a049; }
+    #no-results { color: red; text-align: center; margin-top: 20px; display: none; }
   </style>
 </head>
 <body>
   <h1>筆電清單</h1>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="搜尋品牌、型號、年份、規格...">
+    <button onclick="searchTable()">搜尋</button>
+    <button onclick="clearSearch()">清除</button>
+  </div>
+
   <table id="laptops-table">
     <thead>
       <tr>
@@ -21,33 +35,94 @@
         <th>型號</th>
         <th>規格</th>
         <th>發售日期</th>
+        <th>操作</th>
       </tr>
     </thead>
-    <tbody></tbody>
+    <tbody id="tableBody"></tbody>
   </table>
 
+  <p id="no-results">沒有找到符合條件的筆電</p>
+
   <script>
+    let allData = []; // 儲存所有原始資料
+
+    // 載入資料
     fetch('/api/laptops')
       .then(response => response.json())
       .then(data => {
-        const tbody = document.querySelector('#laptops-table tbody');
-        data.forEach(item => {
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${item.year || '-'}</td>
-            <td>${item.brand || '-'}</td>
-            <td>${item.series || '-'}</td>
-            <td>${item.model || '-'}</td>
-            <td>${item.specs || '-'}</td>
-            <td>${item.release_date || '-'}</td>
-          `;
-          tbody.appendChild(row);
-        });
+        allData = data;
+        renderTable(allData);
       })
       .catch(error => {
         console.error('載入失敗:', error);
-        document.body.innerHTML += '<p style="color:red;">無法載入資料，請檢查 API</p>';
+        document.body.innerHTML += '<p style="color:red; text-align:center;">無法載入資料，請稍後再試</p>';
       });
+
+    // 渲染表格
+    function renderTable(data) {
+      const tbody = document.getElementById('tableBody');
+      tbody.innerHTML = ''; // 清空
+
+      if (data.length === 0) {
+        document.getElementById('no-results').style.display = 'block';
+        return;
+      }
+
+      document.getElementById('no-results').style.display = 'none';
+
+      data.forEach(item => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${item.year || '-'}</td>
+          <td>${item.brand || '-'}</td>
+          <td>${item.series || '-'}</td>
+          <td>${item.model || '-'}</td>
+          <td>${item.specs || '-'}</td>
+          <td>${item.release_date || '-'}</td>
+          <td>
+            <button class="comment-btn" 
+                    onclick="showComments('${item.model.replace(/'/g, "\\'")}')">
+              查看/新增評論
+            </button>
+          </td>
+        `;
+        tbody.appendChild(row);
+      });
+    }
+
+    // 搜尋功能（前端過濾）
+    function searchTable() {
+      const input = document.getElementById('searchInput').value.toLowerCase().trim();
+      if (!input) {
+        renderTable(allData);
+        return;
+      }
+
+      const filtered = allData.filter(item => {
+        return (
+          (item.year + '').toLowerCase().includes(input) ||
+          (item.brand || '').toLowerCase().includes(input) ||
+          (item.series || '').toLowerCase().includes(input) ||
+          (item.model || '').toLowerCase().includes(input) ||
+          (item.specs || '').toLowerCase().includes(input) ||
+          (item.release_date || '').toLowerCase().includes(input)
+        );
+      });
+
+      renderTable(filtered);
+    }
+
+    // 清除搜尋
+    function clearSearch() {
+      document.getElementById('searchInput').value = '';
+      renderTable(allData);
+    }
+
+    // 點擊「查看/新增評論」後的動作（目前只是示範，可擴充）
+    function showComments(model) {
+      alert(`目前還沒有評論系統。\n\n你想對「${model}」留下評論嗎？\n（未來會連到評論頁面或彈窗）`);
+      // 未來可改成：跳轉到 /comments?model=xxx 或開 modal 輸入評論
+    }
   </script>
 </body>
 </html>
